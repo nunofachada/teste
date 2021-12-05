@@ -2,8 +2,6 @@ name: Publish Package and Docs
 
 on:
   push:
-    branches:
-      - main
     tags:
       - '*'
 
